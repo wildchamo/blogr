@@ -1,0 +1,94 @@
+:root{
+    /*Colores! */
+    --light-red:hsl(356, 100%, 66%);
+    --very-light-red:hsl(355, 100%, 74%);
+    --very-dark-blue: hsl(208, 49%, 24%);
+    --white: hsl(0, 0%, 100%);
+    --grayish-blue:hsl(240, 2%, 79%);
+    --very-dark-grayish-blue: hsl(207, 13%, 34%);
+    --very-dark-black-blue:hsl(240, 10%, 16%);
+    --very-dark-gray-blue:hsl(237, 17%, 21%);
+    --very-dark-desaturated-blue:hsl(237, 23%, 32%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'overpass',sans-serif;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    height: 500px;
+    
+    border-bottom-left-radius: 100px;
+    background:url("images/bg-pattern-intro.svg"), linear-gradient(to left, hsl(353, 100%, 62%), hsl(13, 100%, 72%)); 
+    
+}
+.header-arriba{
+    padding-top: 30px;
+}
+.logo-header{
+    background-image: url('/images/logo.svg');
+    width: 125px;
+    height: 60px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.texto-header{
+    position: relative;
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 250px;
+    margin-top: 80px;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 15px;
+}
+.texto-header h1{
+    color: var(--white);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.texto-header p{
+    color: var(--white);
+    font-size: 16px;
+}
+.botones-header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+}
+.botones-header button{
+    border-radius:30px ;
+    width: 130px;
+    height: 50px;
+    font-family: 'Overpass',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+#boton1{
+    background-color: var(--white);
+    color: var(--light-red);
+    border: none;
+}
+#boton2{
+    background: none;
+    color: var(--white);
+    border-width: 2px;
+    border-color: var(--white);
+    border-style: solid;
+}
