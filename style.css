@@ -92,3 +92,39 @@ header{
     border-color: var(--white);
     border-style: solid;
 }
+.main-section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.main-section1 .primertexto{
+    margin-top: 50px;
+    color: var(--very-dark-blue);
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.main-section1-imagen{
+    align-self: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    background-image: url('/images/320px.png');
+    background-repeat: no-repeat;
+}
+.main-section1-texto h2{
+    margin: 15px 35px;
+    color: var(--very-dark-blue);
+    font-size: 26px;
+    font-weight: 600;
+}
+.main-section1-texto p{
+    margin: 15px;
+    font-size: 16px;
+    color: var(--very-dark-gray-blue);
+}
