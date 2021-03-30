@@ -167,5 +167,47 @@ header{
     font-weight: 300;
 }
 .main-section3{
+
     position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    margin-top: 50px;
 }
+
+#main-section3-imagen{
+    width: 320px;
+    height: 290px;
+    background-image: url('/images/ilustration-laptop-mobile.svg');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main-section3-texto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+
+}
+
+.main-section3-texto h2{
+    margin: 15px 35px;
+    color: var(--very-dark-blue);
+    font-size: 26px;
+    font-weight: 600;
+}
+.main-section3-texto p{
+    margin: 15px;
+    font-size: 12px;
+    line-height: 2.6rem;
+    color: var(--very-dark-gray-blue);
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 400;
+}
+
+
+
