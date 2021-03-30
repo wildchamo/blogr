@@ -208,6 +208,50 @@ header{
     font-family: 'Ubuntu',sans-serif;
     font-weight: 400;
 }
+footer{
+    padding-top: 50px;
+    width: 100%;
+    background-color: var(--very-dark-black-blue);
+    align-content: center;
+    
+}
+.logo-footer{
+
+    background-image: url('/images/logo.svg');
+    width: 125px;
+    height: 60px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+.footer-listas{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-content: center;
+}
+.footer-listas ul{
+    
+    text-align: center;
+    margin: 15px;
+}
+.footer-listas ul a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--grayish-blue);
+    line-height: 1.8rem;
+    text-decoration: none;
+    line-height: 3rem;
+    margin: 0 auto;
+
+}
+.footer-listas ul p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--white);
+    line-height: 1.8rem;
+    text-decoration: none;
+}
 
 
 
