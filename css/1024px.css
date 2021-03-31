@@ -7,12 +7,13 @@
     
 }
 .main-section1-texto{
+    margin-top: 250px;
     width: 50%;
     
 }
 .main-section1-container .main-section1-imagen{
     background-image: url('/images/illustration-editor-desktop.svg');
-    width: 925px;
+    width: 50%;
     height: 882px;
 }
 .main-section2{
@@ -38,6 +39,24 @@
     display: flex;
     flex-direction: row;
 }
+#main-section3-imagen{
+    background-image: url('/images/illustration-laptop-desktop.svg');
+    width: 50%;
+    height: 789px;
+}
 .main-section3-texto{
     width: 50%;
+}
+
+
+.footer-listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-listas .logo-footer{
+    margin: 0 0;
+}
+.hamburguer-boton{
+    display: none;
 }

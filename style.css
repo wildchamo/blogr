@@ -34,15 +34,30 @@ header{
     background:url("images/bg-pattern-intro.svg"), linear-gradient(to left, hsl(353, 100%, 62%), hsl(13, 100%, 72%)); 
     
 }
+
 .header-arriba{
-    padding-top: 30px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
 }
+
 .logo-header{
     background-image: url('/images/logo.svg');
     width: 125px;
     height: 60px;
     background-repeat: no-repeat;
     margin-left: 30px;
+}
+.hamburguer-boton{
+    background-image: url('/images/icon-hamburger.svg');
+    width: 42px;
+    height: 35px;
+    margin-top: 8px;
+    margin-left:80px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
 }
 
 .texto-header{
